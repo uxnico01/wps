@@ -1,0 +1,363 @@
+@media print{
+    html,
+    body
+    {
+        margin: 0 !important;
+        padding: 0 !important;
+        height: auto !important;
+    }
+
+    .chartjs-size-monitor{
+        display: none;
+    }
+
+    body
+    {
+        -webkit-print-color-adjust: exact !important;
+    }
+
+    .thead-dark th,
+    th.bg-dark
+    {
+        background-color: #343a40 !important;
+        color: #fff !important;
+    }
+
+    .print-no-border
+    {
+        border-color: #ffffff;
+    }
+
+    .no-print,
+    .no-print *
+    {
+        display: none;
+    }
+
+    *
+    {
+        overflow: visible !important;
+    }
+
+    .mxh-20vh,
+    .mxh-25vh,
+    .mxh-30vh,
+    .mxh-40vh,
+    .mxh-60vh,
+    .mxh-65vh,
+    .mxh-68vh,
+    .mxh-70vh,
+    .mxh-80vh
+    {
+        max-height: auto !important;
+    }
+
+    .print-only
+    {
+        display: block !important;
+    }
+    
+    .pagebreak
+    {
+        display: block !important;
+        page-break-before: always !important;
+    }
+
+    .pw
+    {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+
+    .print-text-black{
+        color: black !important;
+    }
+}
+
+@page{
+    size: auto !important;
+}
+
+.ui-datepicker-trigger
+{
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;    color: #212529;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6 !important;
+}
+
+.ui-datepicker-trigger > img
+{
+    width: 18px !important;
+}
+
+#ui-datepicker-div
+{
+    z-index: 999999 !important;
+}
+
+
+html
+{
+    height: 100% !important;
+}
+
+.print-only
+{
+    display: none;
+}
+
+.mh-100
+{
+    min-height: 100% !important;
+}
+
+.dropdown-menu
+{
+    z-index: 9999 !important;
+}
+
+.mh-60vh
+{
+    min-height: 60vh;
+}
+
+.mh-70vh
+{
+    min-height: 70vh;
+}
+
+.mh-80vh
+{
+    min-height: 80vh;
+}
+
+.mxh-20vh
+{
+    max-height: 20vh;
+    height: 20vh;
+    overflow: auto;
+}
+
+.mxh-25vh
+{
+    max-height: 25vh;
+    height: 25vh;
+    overflow: auto;
+}
+
+.mxh-30vh
+{
+    max-height: 30vh;
+    height: 30vh;
+    overflow: auto;
+}
+
+.mxh-35vh
+{
+    max-height: 35vh;
+    height: 35vh;
+    overflow: auto;
+}
+
+.mxh-40vh
+{
+    max-height: 40vh;
+    height: 40vh;
+    overflow: auto;
+}
+
+.mxh-60vh
+{
+    max-height: 60vh;
+    height: 60vh;
+    overflow: auto;
+}
+
+.mxh-65vh
+{
+    max-height: 65vh;
+    height: 65vh;
+    overflow: auto;
+}
+
+.mxh-68vh
+{
+    max-height: 68vh;
+    height: 68vh;
+    overflow: auto;
+}
+
+.mxh-70vh
+{
+    max-height: 70vh;
+    height: 70vh;
+    overflow: auto;
+}
+
+.mxh-80vh
+{
+    max-height: 80vh;
+    height: 80vh;
+    overflow: auto;
+}
+
+.mw-30p{
+    min-width: 30%;
+}
+
+.mw-50p
+{
+    min-width: 50%;
+}
+
+.mw-60p
+{
+    min-width: 60%;
+}
+
+.mw-70p
+{
+    min-width: 70%;
+}
+
+.mw-80p
+{
+    min-width: 80%;
+}
+
+.mw-90p
+{
+    min-width: 90%;
+}
+
+.modal
+{
+  overflow-y: auto !important;
+}
+
+.bg-secondary2
+{
+    background-color: #e6e6e6;
+}
+
+.top-30px
+{
+    top: 30px;
+}
+
+.top-35px
+{
+    top: 35px;
+}
+
+.top-50px
+{
+    top: 50px;
+}
+
+.h-auto
+{
+    height: auto !important;
+}
+
+.h-28
+{
+    height: 28px !important;
+}
+
+.hdn-cal-icon::-webkit-inner-spin-button,
+.hdn-cal-icon::-webkit-calendar-picker-indicator
+{
+    display: none;
+    -webkit-appearance: none;
+}
+
+.w-40px
+{
+    min-width: 40px;
+}
+
+.w-50px
+{
+    min-width: 50px;
+}
+
+.w-60px
+{
+    min-width: 60px;
+}
+
+.w-70px
+{
+    min-width: 70px;
+}
+
+.w-80px
+{
+    min-width: 80px;
+}
+
+.w-100px
+{
+    min-width: 100px;
+}
+
+.w-120px
+{
+    min-width: 120px;
+}
+
+.w-150px
+{
+    min-width: 150px;
+}
+
+.w-180px
+{
+    min-width: 180px;
+}
+
+.w-200px
+{
+    min-width: 200px;
+}
+
+.w-250px
+{
+    min-width: 250px;
+}
+
+.w-300px
+{
+    min-width: 300px;
+}
+
+.w-450px
+{
+    min-width: 450px;
+}
+
+.h-m34{
+    min-height: 34px;
+    height: 34px;
+}
+
+table.dataTable thead th, table.dataTable thead td{
+    padding: 5px;
+}
